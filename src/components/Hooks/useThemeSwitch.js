@@ -3,14 +3,14 @@
 import { useEffect, useState } from "react";
 
 export function useThemeSwitch() {
-  const preferDarkQuery = "(prefers-color-schema:dark)";
+  const preferDarkQuery = "(prefers-color-schema:light)";
   const storageKey = "theme";
 
   const toggleTheme = (theme) => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
+    if (theme === "light") {
+      document.documentElement.classList.add("light");
     } else {
-      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.remove("light");
     }
     window.localStorage.setItem(storageKey, theme);
   };
@@ -20,10 +20,10 @@ export function useThemeSwitch() {
     if (userPref) {
       return userPref;
     }
-    return window.matchMedia(preferDarkQuery).matches ? "dark" : "light";
+    return window.matchMedia(preferDarkQuery).matches ? "light" : "dark";
   };
 
-  const [mode, setMode] = useState("dark");
+  const [mode, setMode] = useState("light");
 
   useEffect(() => {
     const mediaQuery = window.matchMedia(preferDarkQuery);

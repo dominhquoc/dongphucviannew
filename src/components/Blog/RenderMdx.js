@@ -10,7 +10,15 @@ const mdxComponents = {
 
 const RenderMdx = ({blog}) => {
 
-    const MDXContent = useMDXComponent(blog.body.code)
+    // const MDXContent = useMDXComponent(blog.body.code)
+
+    if (!blog || !blog.body) {
+      return null; // hoặc bạn có thể xử lý theo cách khác tùy thuộc vào yêu cầu của bạn
+    }
+  
+    // Tiếp tục xử lý khi blog.body tồn tại
+    const MDXContent = useMDXComponent(blog.body.code);
+    
 
   return (
     <div className='col-span-12  lg:col-span-8 font-in prose sm:prose-base md:prose-lg max-w-max
