@@ -12,7 +12,7 @@ const RecentPosts = ({ blogs }) => {
           Sản Phẩm
         </h2>
         <Link
-          href="/categories/all"
+          href="/danhmuc/all"
           className="inline-block font-medium text-accent dark:text-accentDark underline underline-offset-2      text-base md:text-lg"
         >
           Xem Tất Cả

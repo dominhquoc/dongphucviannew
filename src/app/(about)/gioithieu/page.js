@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: "Giới Thiệu",
-  description: `Here are some details about my self.`,
+  description: `Các bước may đo đồng phục`,
 };
 
 export default function About() {

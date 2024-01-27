@@ -11,27 +11,27 @@ const BlogDetails = ({ blog, slug: blogSlug }) => {
         {format(parseISO(blog.publishedAt), "LLLL d, yyyy")}
       </time> */}
       {blog && blog.publishedAt && (
-  <time className="m-3">
-    {format(parseISO(blog.publishedAt), "LLLL d, yyyy")}
-  </time>
-)}
+        <time className="m-3">
+          {format(parseISO(blog.publishedAt), "LLLL d, yyyy")}
+        </time>
+      )}
 
       <span className="m-3">
         <ViewCounter slug={blogSlug} />
       </span>
       {/* <div className="m-3">{blog.readingTime.text}</div> */}
       {blog && blog.readingTime && (
-  <div className="m-3">{blog.readingTime.text}</div>
-)}
+        <div className="m-3">{blog.readingTime.text}</div>
+      )}
 
       {/* <Link href={`/categories/${slug(blog.tags[0])}`} className="m-3">
         #{blog.tags[0]}
       </Link> */}
       {blog && blog.tags && blog.tags.length > 0 && (
-  <Link href={`/categories/${slug(blog.tags[0])}`} className="m-3">
-    {blog.tags[0]}
-  </Link>
-)}
+        <Link href={`/danhmuc/${slug(blog.tags[0])}`} className="m-3">
+          {blog.tags[0]}
+        </Link>
+      )}
 
     </div>
   );

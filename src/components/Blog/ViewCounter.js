@@ -2,8 +2,8 @@
 import { createClient } from "@supabase/supabase-js";
 import React, { useEffect, useState } from "react";
 
-const supabaseUrl = "https://hipxxmcemoijeoodeedi.supabase.co"; // Replace with your actual Supabase project URL
-const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhpcHh4bWNlbW9pamVvb2RlZWRpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDYxODY4MzYsImV4cCI6MjAyMTc2MjgzNn0.HzmBO7wXiX0omu3UeKwjomh9a7hAlUX7IhZLC-sCnGg"; // Replace with your actual Supabase anonymous key
+const supabaseUrl = "https://bmshwuhvvvsgozvdnbca.supabase.co"; // Replace with your actual Supabase project URL
+const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJtc2h3dWh2dnZzZ296dmRuYmNhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDYzNzE5MTEsImV4cCI6MjAyMTk0NzkxMX0.Kc4TR87H2TchITx1gw71obo6vxjx2qxLtcK2KC7i03U"; // Replace with your actual Supabase anonymous key
 const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 const ViewCounter = ({ slug, noCount = false, showCount = true }) => {
