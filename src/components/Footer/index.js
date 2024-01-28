@@ -16,8 +16,10 @@ const Footer = () => {
       Địa chỉ: 16 C1, phường 13, quận Tân Bình, Tp.HCM.
       </p>
 
-  
+      <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
       Email: minhquoc0605@gmail.com
+      </p>
+     
     
      
       <div className="flex items-center mt-8">

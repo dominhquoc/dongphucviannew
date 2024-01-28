@@ -21,7 +21,7 @@ const BlogLayoutOne = ({ blog }) => {
         width={blog.image.width}
         height={blog.image.height}
         className="w-full h-3/6 object-center object-cover rounded-xl group-hover:scale-105 transition-all ease duration-300"
-        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1366px) 33vw, 20vw"   style={{ objectFit: 'cover', objectPosition: 'center center', width: '100%', height: '100%',  backgroundSize: 'cover' }}
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1366px) 33vw, 20vw"  
         />
 
  
