@@ -82,9 +82,49 @@ const HomeCoverSection = ({ blogs }) => {
 
       </article>
 
-      <div>
-     
-    </div>
+ <section className="hero-banner bg-gray-900 text-dark pt-8 lg:mt-10">
+      <div className="container mx-auto">
+        <div className="flex flex-col lg:flex-row">
+          <div className="lg:w-1/2">
+            <div className="hero__content">
+              <h5 className="mb-3 text-lg lg:text-xl lg:mb-5 lg:mt-2 font-semibold">Sản phẩm được may kỹ càng với</h5>
+              <h1 className="mb-4 hero__title text-lg lg:text-4xl">
+                <span className="text-blue-500 font-black">sự tỉ mỉ, cẩn thận</span> trong từng đường kim mũi chỉ{' '}
+                <br /> đem lại
+                <span className="text-blue-500 font-black"> độ bền cao, ít bị hư hỏng, giúp tiết kiệm chi phí</span>
+              </h1>
+
+              <p className="mb-3 text-lg lg:text-xl lg:mb-5 lg:mt-2 font-semibold">cho khách hàng.</p>
+
+              <div className="hero__btns flex flex-col lg:flex-row items-center gap-2 lg:gap-5 mt-4">
+
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:w-1/2 mt-6 lg:mt-0">
+            <div className="hero__img relative">
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/6Db_qjSZu0E"
+                title="Đồng phục vi an"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="lg:w-full"
+              ></iframe>
+
+              <h5 className="text-dark absolute top-4 left-4">Story</h5>
+              <hr className="border-dark my-2" />
+              <h1 className="text-dark px-4 text-sm lg:text-2xl lg:font-extrabold">
+                Đường kim mũi chỉ 0.01mm ~ 0.02mm
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </div>
   )
 }
