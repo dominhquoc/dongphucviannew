@@ -8,7 +8,7 @@ const RecentPosts = ({ blogs }) => {
   return (
     <section className="w-full  mt-5 sm:mt-5  md:mt-5 px-5 sm:px-10 md:px-24  sxl:px-32 flex flex-col items-center justify-center">
      <TextLight/>
-      <div className="w-full flex  justify-between mt-10">
+      <div className="w-full flex  justify-between mt-5">
         <h2 className="w-fit inline-block font-bold capitalize text-2xl md:text-4xl text-dark dark:text-light">
           Sản Phẩm Mẫu
         </h2>
