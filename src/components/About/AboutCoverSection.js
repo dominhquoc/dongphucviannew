@@ -17,6 +17,7 @@ const AboutCoverSection = () => {
         </div>
 
         <div className='w-full md:w-1/2 flex flex-col text-left items-start justify-center px-5 xs:p-10 pb-10 lg:px-16'>
+
             <h2 className='font-bold capitalize text-2xl xs:text-3xl sxl:text-4xl  text-center lg:text-left mt-3'>
             Ước mơ lớn, là làm việc chăm chỉ, để đem lại sản phẩm tốt nhất cho khách hàng.
             </h2>

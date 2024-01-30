@@ -9,8 +9,6 @@ import InsightRoll from "@/src/components/About/InsightRoll";
 import siteMetadata from "@/src/utils/siteMetaData";
 
 
-
-
 const insights = [
   "Đồng Phục: Giá Rẻ - Chất Lượng - Uy Tín 🏆",
   "Liên Hệ: 0907404677",
@@ -83,6 +81,10 @@ const HomeCoverSection = ({ blogs }) => {
         </div>
 
       </article>
+
+      <div>
+     
+    </div>
     </div>
   )
 }

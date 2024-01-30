@@ -4,8 +4,9 @@ import Link from "next/link";
 import Axa from "../../../../public/ax1209.png";
 import Axb from "../../../../public/ax1210.png";
 import Axc from "../../../../public/ax1225.png";
-import Axd from "../../../../public/ax1226.png";
+import Axd from "../../../../public/ax1212.png";
 import Image from 'next/image';
+
 
 export const metadata = {
   title: "Giới Thiệu",

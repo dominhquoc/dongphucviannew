@@ -109,3 +109,15 @@
   .animate-shake {
     animation: shake 1s infinite;
   }
+
+  @keyframes blink {
+    50% {
+      background-color: #000000; /* Màu nền khung khi đang chớp */
+      color: #fff; /* Màu chữ khi đang chớp */
+    }
+  }
+  
+  .animate-blink {
+    animation: blink 20s infinite; /* Hiệu ứng chớp mắt */
+  }
+  
