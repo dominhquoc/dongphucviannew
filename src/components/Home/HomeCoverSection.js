@@ -110,7 +110,7 @@ const HomeCoverSection = ({ blogs }) => {
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
-                className="lg:w-full"
+                className="lg:w-full rounded-3xl"
                 
               ></iframe>
 
