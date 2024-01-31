@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import profileCharacter from "../../../public/blogs/ax1200.jpg"
+import profileCharacter from "../../../public/blogs/ax1240.jpg"
 
 
 const AboutCoverSection = () => {
