@@ -82,7 +82,7 @@ const HomeCoverSection = ({ blogs }) => {
 
       </article>
 
- <section className="hero-banner bg-gray-900 text-dark pt-8 px-8 sm:px-4 lg:mt-10">
+ <section className="hero-banner bg-gray-900 text-dark pt-8 px-8 sm:px-6 lg:mt-10">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2">
